@@ -1,0 +1,147 @@
+@media (max-width: 640px) {
+  html body {
+    flex-direction: column-reverse;
+    justify-content: stretch;
+  }
+}
+html,
+body {
+  width: 100vw;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: row;
+}
+#background {
+  display: inline-block;
+  background-color: red;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+#background h1 {
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+}
+#app {
+  background-color: rgb(255, 144, 0);
+  color: black;
+  font-family: arial, sans-serif;
+  padding: 0 30px 0 30px;
+  display: inline-block;
+  width: 640px;
+  box-sizing: border-box;
+}
+
+nav {
+  display: inline-block;
+  width: 100%;
+  margin: 10px 0;
+}
+
+button {
+  padding: 4px 10px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  color: black;
+  font-size: 22px;
+  margin-right: 15px;
+  transition: background-color 0.1s ease-in-out;
+}
+button.active {
+  transition: background-color 0.1s ease-in-out;
+  background-color: rgb(140, 140, 140);
+}
+
+article {
+  background-color: white;
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+ul {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0px;
+  margin: 10px 0;
+  width: 100%;
+}
+ul li {
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+}
+article header {
+  display: block;
+  height: 30px;
+  border-bottom: 1px solid black;
+  margin-bottom: 15px;
+}
+header h2 {
+  font-size: 1.6em;
+  font-weight: 100;
+  margin: 0px;
+}
+header div {
+  display: inline-block;
+  height: 100%;
+  width: 15px;
+  float: right;
+}
+header span {
+  float: right;
+  display: block;
+  width: 0;
+  height: 0.4em;
+  border-style: solid;
+  border-width: 0 6px 6px 6px;
+  border-color: transparent transparent black transparent;
+  text-indent: -100px;
+  overflow: hidden;
+}
+#app img {
+  max-width: 160px;
+  max-height: 93px;
+}
+#background img {
+  background-color: blueviolet;
+  width: 100%;
+  height: 400px;
+}
+section[class^="wrap-"] {
+  overflow: hidden;
+}
+section[class^="wrap-"].hide {
+  animation: hiding 0.1s ease-out 1s;
+}
+
+@keyframes hiding {
+  0% {
+    height: initial;
+  }
+
+  100% {
+    height: 0px;
+  }
+}
+
+section > div {
+  display: flex;
+}
+
+section > div > div,
+section > div > ul {
+  padding: 0 10px;
+}
+section > div > div p,
+section > div > ul p {
+  margin: 0px;
+  font-size: 16px;
+}

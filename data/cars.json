@@ -1,0 +1,32 @@
+[
+	{
+		"brand":"honda",
+		"type":"civic",
+		"power":140,
+		"imgPath":"img/honda.jpg",
+		"energy":"diesel",
+		"year":2006,
+		"datePublication":"2016-08-25",
+		"price":24000
+	},
+	{
+		"brand":"mercedes",
+		"type":"classe A",
+		"power":200,
+		"imgPath":"img/mercedes.jpg",
+		"energy":"diesel",
+		"year":2012,
+		"datePublication":"2015-02-12",
+		"price":30000
+	},
+	{
+		"brand":"clio",
+		"type":"5",
+		"power":180,
+		"imgPath":"img/clio.jpg",
+		"energy":"essence",
+		"year":2012,
+		"datePublication":"2017-03-10",
+		"price":26000
+	}
+]

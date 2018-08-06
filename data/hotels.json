@@ -1,0 +1,42 @@
+[
+	{
+		"name":"Disney’s Sequoia Lodge",
+		"imgPath":"img/DSLH.jpg",
+		"nbReservationLast24hours":58,
+		"description":"Chambre Catégorie Standard avec un grand lit double ou 2 lits doubles située dans l'une de nos Lodges (arrivées à partir du 29/03/2017: petit déjeuner non inclus)",
+		"dates":{
+			"arrivalDate":"dimanche 23 juillet 2017",
+			"departureDate":"lundi 24 juillet 2017"
+		}
+	},
+	{
+		"name":"Disney’s Newport Bay Club",
+		"imgPath":"img/DNBH.jpg",
+		"nbReservationLast24hours":45,
+		"description":"Chambre avec un grand lit double ou 2 lits doubles (arrivées à partir du 29/03/2017: petit déjeuner non inclus)",
+		"dates":{
+			"arrivalDate":"dimanche 23 juillet 2017",
+			"departureDate":"lundi 24 juillet 2017"
+		}
+	},
+	{
+		"name":"Disney’s Hotel New York",
+		"imgPath":"img/DNYH.jpg",
+		"nbReservationLast24hours":74,
+		"description":"Chambre avec un grand lit double ou 2 lits doubles (arrivées à partir du 29/03/2017: petit déjeuner non inclus)",
+		"dates":{
+			"arrivalDate":"dimanche 23 juillet 2017",
+			"departureDate":"lundi 24 juillet 2017"
+		}
+	},
+	{
+		"name":"Disneyland Hotel",
+		"imgPath":"img/DDLH.jpg",
+		"nbReservationLast24hours":34,
+		"description":"Chambre Catégorie Standard avec un grand lit double ou 2 lits doubles située dans l'une de nos Lodges (arrivées à partir du 29/03/2017: petit déjeuner non inclus)",
+		"dates":{
+			"arrivalDate":"dimanche 23 juillet 2017",
+			"departureDate":"lundi 24 juillet 2017"
+		}
+	}
+]
